@@ -1,20 +1,11 @@
-Perfect 👍 — since you’re using **Vite** instead of Create React App, your project setup is even cleaner and faster.
-
-Let’s adjust your **README.md** to reflect that — including your `vite.config.js` setup and proper development workflow for a **Vite + MERN stack**.
-
----
-
-```markdown
 # ⚡ MERN + Vite Starter Template
 
 A lightweight and fast **MERN (MongoDB, Express, React, Node.js)** project template powered by **Vite** for the frontend and **Express + Mongoose** for the backend.
 
----
 
 ## 📁 Project Structure
 
 ```
-
 mern-project/
 │
 ├── backend/           # Express + MongoDB API
@@ -37,10 +28,9 @@ mern-project/
 │   └── package.json
 │
 └── README.md
+```
 
-````
 
----
 
 ## ⚙️ Installation & Setup
 
