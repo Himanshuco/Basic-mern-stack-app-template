@@ -6,13 +6,13 @@ function App() {
   const [name, setName] = useState("");
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/examples")
+    axios.get("/api/examples")
       .then(res => setExamples(res.data))
       .catch(err => console.error(err));
   }, []);
 
   const addExample = async () => {
-    const res = await axios.post("http://localhost:5000/api/examples", { name });
+    const res = await axios.post("/api/examples", { name });
     setExamples([...examples, res.data]);
     setName("");
   };
